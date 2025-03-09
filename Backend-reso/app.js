@@ -11,7 +11,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: [process.env.FRONTEND_URL], // Use FRONTEND_URL from .env
+    origin: [https/restaurent-frontend1.onrender.com], // Use https://restaurent-frontend1.onrender.com from .env
     methods: ["POST"], // Allowed HTTP methods
     credentials: true, // Allow credentials (e.g., cookies)
   })
